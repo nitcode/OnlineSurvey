@@ -1,0 +1,75 @@
+#container {
+    overflow: hidden;
+    background: #fff url(../images/bg.jpg) repeat top left;
+    
+}
+#container div {
+    overflow: visible;
+    float: left;
+    width: 33%;
+    /*margin-bottom: -2000px;
+    padding-bottom: 2000px;*/
+}
+#container div.header {
+    width: 100%;
+    text-align: center;
+    /*margin: 20px 20px 0 20px;
+    padding: 20px;*/
+}
+#container div.header.h1 {
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: rgba(26,89,120,0.9);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 0px 0px 5px 0px;
+}
+#container .col2 {
+    overflow: visible;
+    height: 100%;
+}
+p {
+    margin-bottom: 20px;
+}
+#container div.box {
+    width: 85%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /*padding-bottom:20px;*/
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    overflow: visible;
+}
+.pink {
+    background: pink;
+}
+.yellow {
+    background: yellow;
+}
+.orange {
+    background: orange;
+}
+.red {
+    background: red;
+}
+.white {
+    background: white;
+}
+.blue {
+    background: blue;
+    color: white;
+}
+.last {
+    height: 40px;
+    border: none;
+}
+
+#wraps{
+	width:100%;
+	margin:80px auto 50px;
+	position:relative;
+}
