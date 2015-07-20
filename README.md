@@ -115,7 +115,7 @@ Convert maven project to support eclise using following command in project direc
 Navigate to the project location and run following command in project directory: <br/>
 `mvn eclipse:eclipse -Dwtpversion=2.0` <br/>
 ## Create Database
-As we are using 20 different data-sets, so create 20 tables one for each data-set. For example, GraphPlot1 for dataset-1 as shown below:
+As we are using 20 different data-sets,create 20 tables one for each data-set and import the data. You can find all the data-sets in resources folder. For example, GraphPlot1 for dataset-1 as shown below:
 ```Sql
 CREATE TABLE `GraphPlot1` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
